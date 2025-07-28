@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>form demo</title>
+</head>
+<body>
+<form action="success.html">
+    <h1>
+    <caption style="text-align: center;">Student Registration form</caption>
+    </h1><br><br>
+    <label for="fn"> First Name:</label> 
+    <input type="text" id="fn" name="First name" required>
+    
+    <label for="ln">Last Name:</label> 
+    <input type="text" id="ln" name="Last name" required>
+    <br><br>
+    <label for="gn">Gender : </label>
+    <input type="radio" id="gn" name="gender" value="male" required>Male
+    <input type="radio" id="gn" name="gender" value="female" required>Female
+    <input type="radio" id="gn" name="gender" value="others" required>Others
+    <br><br>
+    <label for="email">Email: </label>
+    <input type="text" id="email" name="Email" required><br><br>
+
+     <label for="Contact Number">Contact Number: </label>
+    <input type="tel" pattern="[0-9]{10}"id="Contact Number" name="Contact Number" required>
+    <br>
+    <br>
+    <label >D.O.B :</label>
+    <input type="date" required>
+    <br><br>
+    <label>Address :</label>
+   <textarea rows="4" required></textarea>
+   <br>
+   <br>
+   <label>Languages Known: </label>
+   <input type="checkbox" value="Hindi" >Hindi
+   <input type="checkbox" value="English" >English
+   <input type="checkbox" value="Telugu">Telugu
+   <input type="checkbox" value="odia" >Odia
+   <br>
+   <br>
+   <label>Select Branch:</label>
+   <select>
+    <option value="select">--select--</option>
+    <option value="CSE" >CSE</option>
+    <option value="ECE" >ECE</option>
+    <option value="EEE" >EEE</option>
+    <option value="AI DS" >AI DS</option>
+    <option value="Mechanical" >Mechanical</option>
+    <option value="Chemical"> Chemical</option>
+   </select>
+<br>
+<br>
+<label>Upload Resume:</label>
+<input type="file" >
+<br>
+<button>Submit</button>
+    
+
+
+</form>
+
+
+
+</body>
+</html>
